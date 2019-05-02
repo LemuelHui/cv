@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lemuel Hui</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Damion|Ubuntu+Mono|Roboto" rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+<div class="welcome-section">
+    <img class="tea-cup" src="images/tea-cup.png" alt="tea cup">
+    <h1 class="name">I'm Lemuel.</h1>
+    <h2 class="subtitle">a programmer fuelled by caffeine</h2>
+    <img class="robot" src="images/robot.png" alt="robot">
+</div>
+<div class="introduction-section-background">
+    <img class="profile" src="images/profile.jpg" alt="profile picture">
+    <div class="introduction-section">
+        <h2>Hello.</h2>
+        <p>I am a freelance programmer who specialises in deep learning, web and Android development. I am the founder of Amagna
+        Enterprise. I love tea — it's like a hug in a cup!</p>
+    </div>
+</div>
+<div class="skill-section-background">
+    <div class="skill-section">
+        <h2>My Skills</h2>
+        <div class="skill-row-1">
+            <img class="android-robot" src="images/waving-android-robot.png" alt="waving android robot">
+            <h3 class="skill-row-1-title">Android Development</h3>
+            <p class="skill-row-1-description">
+                I became interested in Android development when I stumbled across an article about Google's Image
+                Captioning AI model appropriately named
+                <a href="https://ai.googleblog.com/2016/09/show-and-tell-image-captioning-open.html">Show and Tell</a>.
+                I thought that this technology was insanely cool and wanted to make it more accessible to all so I
+                decided to create an app around it. It took many months for me to learn Android but I finally released a
+                <a href="https://play.google.com/store/apps/details?id=com.amagna.paintmyworld">beta version</a>.
+            </p>
+        </div>
+        <div class="skill-row-2">
+            <img class="robot-eve" src="images/robot-eve.png" alt="robot eve">
+            <h3 class="skill-row-2-title">Deep Learning</h3>
+            <p class="skill-row-2-description">
+                I took a course called
+                <a href="https://eu.udacity.com/course/intro-to-machine-learning--ud120">Intro to Machine Learning</a>
+                from Udacity and became fascinated with deep learning. I followed some tutorials on YouTube and
+                programmed a
+                <a href="https://github.com/LemuelHui/Sentiment_Analysis">neural network</a>
+                capable of differentiating between positive and negative sentences. The
+                neural network was trained using 1.6 million tweets!
+            </p>
+        </div>
+    </div>
+</div>
+<div class="contact-section-background">
+    <h2>Get In Touch</h2>
+    <div>
+        <a href="https://www.linkedin.com/in/lemuelhui/">LinkedIn</a>
+    </div>
+    <div>
+        <a href="https://github.com/LemuelHui">GitHub</a>
+    </div>
+    <div>
+        <a href="mailto:lemuelhui97@gmail.com">Email</a>
+    </div>
+    <footer id="footer"></footer>
+    <script>
+        let element = document.getElementById("footer");
+        element.innerHTML = "<small>&copy; " + new Date().getFullYear() + " Amagna Enterprise</small>";
+    </script>
+</div>
+</body>
+</html>

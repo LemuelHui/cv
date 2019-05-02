@@ -1,0 +1,151 @@
+body {
+    text-align: center;
+    margin: 0;
+}
+
+/**
+Darker shade of blue: #083D77
+ */
+h1 {
+    color: #586BA4;
+}
+
+h2 {
+    color: #5E5C6C;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    color: #586BA4;
+    font-weight: normal;
+    font-size: 1.25rem;
+}
+
+p {
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    color: #5E5C6C;
+}
+
+a {
+    font-family: 'Roboto', sans-serif;
+}
+.welcome-section {
+    background-color: #f06868;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.welcome-section .name {
+    margin-top: 0;
+    font-family: 'Damion', cursive;
+    font-weight: normal;
+    font-size: 5rem;
+    margin-bottom: 0;
+}
+
+.welcome-section .subtitle {
+    color: #edf798;
+    font-weight: normal;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 1.5rem;
+    margin-top: 0;
+}
+
+.welcome-section .tea-cup {
+    width: 5%;
+    display: block;
+    margin: auto 25% auto auto;
+    padding-top: 25px;
+    transform: rotate(20deg);
+}
+
+.welcome-section .robot {
+    width: 10%;
+    display: block;
+    margin: auto auto auto 25%;
+}
+
+.introduction-section-background {
+    background-color: #80d6ff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.introduction-section-background .profile {
+    width: 15%;
+    border-radius: 50%;
+}
+
+.introduction-section {
+    width: 50%;
+    margin: auto;
+}
+
+.introduction-section p {
+    margin: 0;
+}
+
+.skill-section-background {
+    background-color: #FDE74C;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.skill-section {
+    width: 50%;
+    margin: auto;
+    overflow: auto;
+}
+
+.skill-section h2,h3 {
+    margin-top: 0;
+}
+
+.skill-row-1 .skill-row-1-title,.skill-row-1-description {
+    text-align: left;
+    margin-left: 25%;
+}
+
+.skill-row-2 {
+    margin-top: 50px;
+}
+
+.skill-row-2 .skill-row-2-title,.skill-row-2-description {
+    text-align: left;
+    margin-right: 25%;
+}
+
+.android-robot {
+    width: 20%;
+    float: left;
+}
+
+.robot-eve {
+    width: 20%;
+    float: right;
+}
+
+.contact-section-background {
+    background-color: #fab57a;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.contact-section-background div {
+    display: inline-block;
+    margin: 10px;
+}
+
+.contact-section-background h2 {
+    margin: 0;
+}
+
+#footer {
+    font-family: 'Roboto', sans-serif;
+    color: #5E5C6C;
+}
